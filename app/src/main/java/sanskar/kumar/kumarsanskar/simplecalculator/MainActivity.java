@@ -16,6 +16,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        firstNumber = (EditText) findViewById(R.id.editText);
+        secondNumber = (EditText) findViewById(R.id.editText2);
+        resultDisplay = (TextView) findViewById(R.id.textView);
+        addButton = (Button) findViewById(R.id.button);
+        subtractButton = (Button) findViewById(R.id.button2);
+        multiplyButton = (Button) findViewById(R.id.button3);
+        divideButton = (Button) findViewById(R.id.button4);
     }
 }
