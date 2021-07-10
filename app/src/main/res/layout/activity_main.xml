@@ -64,7 +64,7 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="82dp"
         android:layout_marginLeft="82dp"
-        android:text="Button" />
+        android:text="Add" />
 
     <Button
         android:id="@+id/button2"
