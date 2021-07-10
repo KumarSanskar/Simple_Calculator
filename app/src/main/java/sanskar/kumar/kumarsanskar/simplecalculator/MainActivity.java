@@ -3,6 +3,7 @@ package sanskar.kumar.kumarsanskar.simplecalculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -23,5 +24,12 @@ public class MainActivity extends AppCompatActivity {
         subtractButton = (Button) findViewById(R.id.button2);
         multiplyButton = (Button) findViewById(R.id.button3);
         divideButton = (Button) findViewById(R.id.button4);
+
+        addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
