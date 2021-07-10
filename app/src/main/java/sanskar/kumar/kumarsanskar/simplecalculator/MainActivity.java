@@ -1,12 +1,13 @@
 package sanskar.kumar.kumarsanskar.simplecalculator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     EditText firstNumber, secondNumber;
@@ -28,6 +29,15 @@ public class MainActivity extends AppCompatActivity {
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String firstInput = firstNumber.getText().toString();
+                String secondInput = secondNumber.getText().toString();
+                float firstValue = Float.parseFloat(firstInput);
+                float secondValue = Float.parseFloat(secondInput);
+                float resultantValue = firstValue + secondValue;
+                String resultValue = Float.toString(resultantValue);
+                resultDisplay.setText(resultValue);
+                Toast.makeText(MainActivity.this, "The answer is: " + resultValue, Toast.LENGTH_SHORT).show();
+
 
             }
         });
