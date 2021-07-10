@@ -19,7 +19,7 @@
         android:layout_marginTop="50dp"
         android:ems="10"
         android:hint="Input First Number"
-        android:inputType="textPersonName" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/editText2"
@@ -37,7 +37,7 @@
         android:layout_marginRight="5dp"
         android:ems="10"
         android:hint="Input Second Number"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName|numberDecimal" />
 
     <TextView
         android:id="@+id/textView"
