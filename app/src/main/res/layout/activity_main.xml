@@ -22,7 +22,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/editText"
@@ -36,6 +36,6 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Input Second Number"
+        android:inputType="textPersonName" />
 </RelativeLayout>
